@@ -1,0 +1,28 @@
+@font-face{
+    font-family:"ajo";
+    src: url("ComicNeueSansID.ttf");
+}
+html{
+    background-color: ghostwhite;
+    font-family: ajo;
+}
+body{
+    color: aquamarine;
+    display: flex;
+    font-size: xx-large;
+
+}
+li{
+    color: green;
+    display: inline-block;
+    font-size: xx-small;
+}
+img{
+    display: flex;
+}
+header,main,footer{
+    width: 600px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+}
